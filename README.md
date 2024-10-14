@@ -33,3 +33,25 @@ curl -X 'POST' \
 ```
 
 You can verify if the message was received by checking the logs of the Receiver project.
+
+## Dashboards and frontends
+
+It's possible to access the RabbitMQ management dashboard by accessing the following URL:
+
+```bash
+http://localhost:36567/
+```
+
+To get the username and password, check the Aspire portal under the RabbitMQ service environment variables.
+
+It's also possible to access the Aspire portal to see the logs and metrics of the services. The URL is:
+
+```bash
+http://localhost:15021/
+```
+
+It's possible access AspireRaabbitMQ.Sender Swagger UI by accessing the following URL:
+
+```bash
+http://localhost:5155/swagger/index.html
+```
